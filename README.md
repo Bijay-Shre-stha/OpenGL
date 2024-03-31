@@ -101,3 +101,20 @@
 # Additional Driver
 
 + Add `glfw3.dll` to the project directory from `C:\glfw-3.4.bin.WIN32\lib-mingw-w64`
+
+
+# Run the Code
+
+
+
+- Open the project directory in the terminal
+- Run the following command
+```bash
+g++ main.cpp -o main -I C:\glfw-3.4.bin.WIN32\include -I C:\glew-2.1.0\include -L C:\glew-2.1.0\lib\Release\x64 -L C:\glfw-3.4.bin.WIN32\lib-mingw-w64 -lglfw3dll -lglew32 -lopengl32 && ./main
+```
+
+# Output
+![alt output](image.png)
+
+# Contributors
+- -Bijay Shrestha ([GitHub](https://github.com/Bijay-Shre-stha)), March-2024
